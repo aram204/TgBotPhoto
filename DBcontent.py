@@ -1,6 +1,7 @@
 import pymongo
 from configure import server
 
+#tlsCAFile=certifi.where()
 client = pymongo.MongoClient(server)
 
 db = client.telegram_users
